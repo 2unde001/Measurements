@@ -1,0 +1,30 @@
+
+label{
+    margin: 20px;
+    
+}
+
+
+.btn{
+    color: blue;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 150px auto 150px;
+    grid-auto-rows: repeat(3,100px);
+    grid-gap: 20px;
+    
+}
+
+.middle{
+    grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  position: absolute;
+
+}
+
+
+
